@@ -1,5 +1,6 @@
 import React from "react";
-import SignPad from "./Pages/SignPad";
+import SignBoard from "./page/SignBoard/SignBoard";
+import SignPad from "./page/SignPad/SignPad";
 import {
   BrowserRouter as Router,
   Navigate,
@@ -15,7 +16,7 @@ const App: React.FC = () => {
       <Router>
         <Routes>
           <Route path="/SignPad" element={<SignPad />} />
-          <Route path="/SignBoard" element={<>SignBoard</>} />
+          <Route path="/SignBoard" element={<SignBoard />} />
           <Route path="*" element={<Navigate replace to="/SignPad" />} />
           {/* <Route path="*" element={<PageNotFound />} /> */}
         </Routes>

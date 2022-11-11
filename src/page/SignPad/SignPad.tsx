@@ -22,7 +22,7 @@ const SignPad: React.FC = () => {
   };
 
   return (
-    <div className="signPad">
+    <div className="SignPad">
       <div className="signContainer">
         <SignatureCanvas
           canvasProps={{ width: 500, height: 200 }}
