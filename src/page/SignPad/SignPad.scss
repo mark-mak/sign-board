@@ -4,4 +4,13 @@
     height: 200px;
     border: 1px solid;
   }
+
+  .actionButton {
+    display: block;
+    min-width: 200px;
+    padding: 12px 4px;
+    box-sizing: border-box;
+    margin: 12px 0;
+    cursor: pointer;
+  }
 }
